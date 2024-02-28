@@ -1,0 +1,86 @@
+input, button{ 
+  font-family: Helvetica;
+  font-size: 13px;
+  margin-top: 180px;
+}
+body {
+  padding: 10px 50px;
+  background-color: #343a40;
+}
+h1, h2, h3, .box {
+  color: #e9ecef;
+  font-family: Helvetica;
+  font-size: 35px;
+}
+
+h2{
+  font-size: 15px;
+  margin-top: -20px;
+}
+
+h3{
+  font-size: 25px;
+  margin-left: -40px;
+  margin-top: 70px;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
+
+.box{
+  font-size: 70px;
+  font-family: Helvetica;
+  margin-top: -340px;
+  margin-left: 50px;
+  text-transform: uppercase;
+  color: yellow;
+  
+  
+}
+
+.box2{
+  font-size: 70px;
+  font-family: Helvetica;
+  margin-top: 200px;
+  margin-left: 50px;
+  text-transform: uppercase;
+  color: red;
+  
+  
+}
+
+.box3{
+  font-size: 70px;
+  font-family: Helvetica;
+  margin-top: -270px;
+  margin-left: 50px;
+  text-transform: uppercase;
+  color: blue;
+  
+  
+}
+.box4{
+  font-size: 70px;
+  font-family: Helvetica;
+  margin-top: 19px;
+  margin-left: 50px;
+  text-transform: uppercase;
+  color: green;
+  
+  
+}
+
+.box:hover, .box2:hover, .box3:hover, .box4:hover {
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+
+}
