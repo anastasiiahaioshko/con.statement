@@ -9,13 +9,13 @@ document.addEventListener('DOMContentLoaded', function() {
   
   document.addEventListener('click', function(event) {
     if (event.target === box) {
-      display.innerHTML = '<img src="path/to/assets/t.jpg">';
+      display.innerHTML = '<img src="t.jpg">';
     } else if (event.target === box2) {
-      display.innerHTML = '<img src="path/to/assets/nz.jpg">';
+      display.innerHTML = '<img src="nz.jpg">';
     } else if (event.target === box3) {
-      display.innerHTML = '<img src="path/to/assets/n.jpg">';
+      display.innerHTML = '<img src="n.jpg">';
     } else if (event.target === box4) {
-      display.innerHTML = '<img src="path/to/assets/e.jpg">';
+      display.innerHTML = '<img src="e.jpg">';
     } else {
       display.innerHTML = '';
     }
