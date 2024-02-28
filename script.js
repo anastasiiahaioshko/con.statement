@@ -1,23 +1,29 @@
-document.addEventListener('DOMContentLoaded', function() {
-  // Get references to the boxes
-  var box = document.querySelector('.box');
-  var box2 = document.querySelector('.box2');
-  var box3 = document.querySelector('.box3');
-  var box4 = document.querySelector('.box4');
-  
-  var display = document.getElementById('display');
-  
-  document.addEventListener('click', function(event) {
-    if (event.target === box) {
-      display.innerHTML = '<img src="t.jpg">';
-    } else if (event.target === box2) {
-      display.innerHTML = '<img src="nz.jpg">';
-    } else if (event.target === box3) {
-      display.innerHTML = '<img src="n.jpg">';
-    } else if (event.target === box4) {
-      display.innerHTML = '<img src="e.jpg">';
-    } else {
-      display.innerHTML = '';
-    }
-  });
-});
+function getInputValue(){
+            var inputVal = document.getElementById("myInput").value;
+            document.getElementById("display").innerHTML = "<br>" + inputVal ;
+        
+var season = inputVal;
+
+if (season === 'spring') {
+console.log('Ecuador is for you!');
+document.getElementById("seasonal").innerHTML= "<img src='e.jpg'>";
+
+}else if(season === 'winter'){
+	document.getElementById("seasonal").innerHTML= "<img src='n.jpg'>";
+    console.log('Norway is for you!');      
+         } 
+else if(season === 'fall'){
+	document.getElementById("seasonal").innerHTML= "<img src='nz.jpg'>";
+    console.log('New Zealand is for you!');      
+         } 
+else if(season === 'summer'){
+	document.getElementById("seasonal").innerHTML= "<img src='t.jpg'>";
+    console.log('Thailand is for you!');      
+         } 
+else {
+  console.log('Invalid season.');
+    document.getElementById("seasonal").innerHTML= "invalid season";
+
+}
+}
+
