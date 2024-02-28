@@ -85,15 +85,9 @@ h3{
 
 }
 
-#display {
-  float: right; /* Align to the right side */
-  margin-right: 20px; /* Add margin to the right */
-  margin-top: 10px;
-  width: 5px; /* Set width to 5 pixels */
-  height: 7px; /* Set height to 7 pixels */
-}
-
-#display img {
-  width: 100%; /* Make the image fill the container width */
-  height: 100%; /* Make the image fill the container height */
+.display, .seasonal {
+  
+  color: #e9ecef;
+  font-family: Helvetica;
+  font-size: 20px;
 }
