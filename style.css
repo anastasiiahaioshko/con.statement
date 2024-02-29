@@ -92,3 +92,11 @@ h3{
   font-size: 20px;
   margin-top: 150px;
 }
+
+.seasonal {
+width: 5px;
+height: 7px;
+transform: translateX ;
+margin-right: 20px;
+margin-top: -300px;
+}
